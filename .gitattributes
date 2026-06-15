@@ -1,0 +1,17 @@
+# Normalización de fin de línea — evita diffs/conflictos fantasma con upstream (awslabs).
+# El repo guarda SIEMPRE LF; los checkouts en Windows no reescriben a CRLF.
+* text=auto eol=lf
+
+# Scripts shell siempre LF (se rompen con CRLF).
+*.sh text eol=lf
+
+# Binarios: no tocar.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.zip binary
