@@ -199,7 +199,7 @@ This gives the agent product context in every component.
 
 Clone the steering templates repository:
 ```bash
-STEERING_REPO="git@{ssh-host}:{org}/applying-steering-templates.git"
+STEERING_REPO="https://github.com/Applying-Cloud/applying-steering-templates.git"
 STEERING_DIR="$(mktemp -d)/applying-steering-templates"
 git clone --depth 1 "$STEERING_REPO" "$STEERING_DIR"
 ```

@@ -18,7 +18,7 @@ Kiro IDE workspace file. This gives:
 
 ## Steering Distribution Model
 
-Steering files come from `applying-steering-templates` (a separate repo):
+Steering files come from [`applying-steering-templates`](https://github.com/Applying-Cloud/applying-steering-templates) (a separate repo):
 
 1. Clone the templates repo at a pinned version (tag or commit hash).
 2. Read `catalog.md` — each entry has an "aplica cuando" (applies when) criterion.

@@ -15,7 +15,7 @@ manual checklist (the v1 `applying-project-bootstrap` extension). It:
   or multi-repo independent) with a recommendation based on the vision document;
 - **creates GitHub repos** via `gh`, structures folders, and generates the
   IDE workspace file;
-- **distributes steering and skills** from the `applying-steering-templates`
+- **distributes steering and skills** from the [`applying-steering-templates`](https://github.com/Applying-Cloud/applying-steering-templates)
   catalog per component;
 - **generates an onboarding script** (`scripts/setup.sh`) for new developers;
 - **records every decision** in an audit artifact for traceability.
