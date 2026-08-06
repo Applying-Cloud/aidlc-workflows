@@ -5,7 +5,7 @@ name: Project Bootstrap Setup
 plugin: applying-bootstrap
 phase: inception
 execution: CONDITIONAL
-condition: Execute when the applying-bootstrap plugin is active and Product-Definition/ exists with at least vision-document.md and technical-environment.md
+condition: Execute when the applying-bootstrap plugin is active and Product-Definition/ exists with at least vision-document.md and technical-environment.md. For scopes ASK the user whether they want to run project bootstrap before proceeding.
 lead_agent: applying-bootstrap-agent
 support_agents:
   - aidlc-delivery-agent
@@ -31,6 +31,10 @@ scopes:
   - feature
   - mvp
   - workshop
+  - infra
+  - security-patch
+  - poc
+  - refactor      
   - applying-bootstrap-full
 inputs: Product-Definition/ documents (vision-document.md, technical-environment.md, open-questions.md)
 outputs: applying-bootstrap-component-matrix.md, applying-bootstrap-repo-strategy.md, applying-bootstrap-workspace-config.md, applying-bootstrap-steering-selection.md, applying-bootstrap-onboarding-script.md, applying-bootstrap-audit-record.md (under this stage's record dir, engine-resolved)
