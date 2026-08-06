@@ -1,0 +1,17 @@
+{
+  "name": "applying-bootstrap",
+  "version": "0.1.0",
+  "description": "Automated project bootstrapping — multi-repo workspace creation, steering distribution, and onboarding script generation during inception. Replaces manual repo setup with a guided, auditable flow.",
+  "author": { "name": "Applying Cloud" },
+  "dependencies": ["core"],
+  "aidlc": {
+    "contributes": {
+      "stages": "stages/",
+      "overlays": "contributions/",
+      "agents": "agents/",
+      "scopes": "scopes/",
+      "knowledge": "knowledge/",
+      "tools": "tools/"
+    }
+  }
+}
